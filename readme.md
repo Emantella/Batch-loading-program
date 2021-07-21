@@ -1,6 +1,6 @@
 # :D README.MD
 
-README.MD is a file breifly describing a github project. These first few sentances should give the reader an idea of what the project is about.
+Made By [@Emantella](https://github.com/Emantella) And [@AceiusIO](https://github.com/AceiusIO)
 
 ## 💻 Downloading and running
 Heres some options:
