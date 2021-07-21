@@ -12,6 +12,7 @@ clear
 echo -
 sleep 1
 clear
+echo /
 sleep 1
 vert
 clear
