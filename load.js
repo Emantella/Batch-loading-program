@@ -47,7 +47,7 @@ const whiteLoad = async (msg) => {
 }
 
 const altLoad = async (msg) =>  {
-//wip
+//wip 
     console.clear();
     console.log(chalk.blue('⠇ ') + msg);
     await delay(1000);
@@ -60,9 +60,33 @@ const altLoad = async (msg) =>  {
     console.clear();
     console.log(chalk.blue('⠲ ') + msg);
     await delay(1000);
+    console.log(chalk.blue('⠇ ') + msg);
+}
+
+const numLoad = async (msg) => {
+    let percent = 0;
+    while (percent != 100) {
+        console.clear();
+        console.log(msg)
+        console.log(chalk.yellow(percent + '% ') + chalk.blue('Progress'));
+        await delay(10);
+        percent = percent + 1;
+    }
+}
+
+const slowNumLoad = async (msg) => {
+    let percent = 0;
+    while (percent != 100) {
+        console.clear();
+        console.log(msg)
+        console.log(chalk.yellow(percent + '% ') + chalk.blue('Progress'));
+        await delay(40);
+        percent = percent + 1;
+    }
 }
 
 exports.load = waitAndLoad;
 exports.warnLoad = yellowLoad;
 exports.plainLoad = whiteLoad;
-//exports.altLoad = altLoad;
+exports.numLoad = numLoad;
+exports.slowNumLoad = slowNumLoad;

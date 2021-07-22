@@ -21,9 +21,15 @@ Load.bat
 ```
 JS Example:
 ```js
-loader.load('A Message to show while loading');
-loader.warnLoad('A style if somthing is wrong');
-loader.plainLoad('A plain style');
+
+async function example() {
+    await loader.load('A Message to show while loading');
+    await loader.warnLoad('A style if somthing is wrong');
+    await loader.plainLoad('A plain style');
+    await loader.numLoad(`A percent loading style
+This style supports multiline string input`)
+    await loader.numLoad('A slower version that lines up with the other methods')
+}
 ```
 
 ## 💾 Project Setup
