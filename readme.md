@@ -5,11 +5,11 @@ Made By [@Emantella](https://github.com/Emantella) And [@AceiusIO](https://githu
 
 ## 💻 Installation
 Here's some options:
-### NPM (Reccomended)
+### NPM (Reccomended) For JavaScirpt
  - Install with `npm install rhino-loader`
-### Windows
+### Windows Batch
  - Install via downloading [Load.bat](Load.bat)
-### Mac & Linux
+### Mac & Linux Shell
  - Install via downloading [Load.sh](Load.sh)
 
 ## ⌨ Useage examples
