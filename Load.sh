@@ -6,7 +6,7 @@ vert(){
 }
 vert
 clear
-echo \
+echo "\\"
 sleep 1
 clear
 echo -
